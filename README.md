@@ -24,6 +24,10 @@ I got to complete all the required features with some caveats:
 
 ## How to run it
 ```bash
+# in the root of the project run
+npm install
+```
+```bash
 # create the bootstrap node with:
 hyperdht --bootstrap --host 127.0.0.1 --port 30001
 ```
