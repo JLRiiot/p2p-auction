@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --experimental-modules index.mjs"
   },
   "author": "Jose Montana",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@hyperswarm/rpc": "^3.2.2",
+    "hyperbee": "^2.15.2",
+    "hypercore": "^10.30.2",
+    "hypercore-crypto": "^3.4.0",
+    "hyperdht": "^6.9.1"
+  }
 }
